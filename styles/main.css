@@ -1,0 +1,109 @@
+#container {
+  width: 287px;
+  height: 518px;
+  background-color: rgb(17,39,63);
+  border-radius: 14px;
+  padding: 24px;
+  position: relative;
+  box-shadow: 30px -20px 20px rgb(12,23,41), -30px 20px 20px rgb(12,23,41);
+}
+#eqb-img {
+  width: 287px;
+  border-radius: 8px;
+  margin-bottom: 18px;
+}
+#p1 {
+  font-size: 1.3125rem;
+  color: white;
+  font-weight: 500;
+  margin-bottom: 18px;
+  transition: 0.15s;
+  width: fit-content;
+}
+#p1:hover {
+  cursor: pointer;
+  color: rgb(0,255,248);
+}
+#p2 {
+  font-size: 1.0625rem;
+  color: rgb(136,155,186);
+  margin-bottom: 28px;
+}
+#div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.price {
+  display: flex;
+  align-items: center;
+}
+#price-eth {
+  margin-left: 8px;
+  color: rgb(0,255,248);
+  font-size: 0.9375rem;
+  font-weight: 500;
+}
+#time {
+  margin-left: 6px;
+  color: rgb(136,155,186);
+  font-size: 0.9375rem;
+}
+#div2 {
+  margin-top: 16px;
+  display: flex;
+  align-items: center;
+}
+#avatar {
+  width: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+#user-name {
+  color: white;
+  transition: 0.15s;
+}
+#user-name:hover {
+  color: rgb(0,255,248);
+  cursor: pointer;
+}
+#span {
+  font-size: 0.9375rem;
+  color: rgb(136,155,186);
+}
+#view {
+  display: none;
+  position: absolute;
+  top: 119px;
+  left: 119px;
+  transition: 0.15s;
+}
+#light-blue {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0,255,248);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  opacity: 0;
+  transition: 0.15s;
+}
+.hover-container {
+  position: relative;
+  width: 287px;
+  height: 287px;
+  margin-bottom: 20px;
+}
+.hover-container:hover #light-blue {
+  opacity: 0.45;
+  cursor: pointer;
+}
+.hover-container:hover #view {
+  display: block;
+  cursor: pointer;
+}
